@@ -4,6 +4,12 @@ import { RouterModule } from '@angular/router';
 
 import { StoreModule } from '@ngrx/store';
 import { AppComponent } from './app.component';
+
+/*
+ * Path should have been
+ * import { TestComponent } from './test/test.component';
+ * But there is a duplication of '/test' in the path
+*/
 import { TestComponent } from './test/test/test.component';
 
 @NgModule({
